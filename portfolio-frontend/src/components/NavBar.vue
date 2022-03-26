@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="../../public/logo.svg" alt=""></a>
+    <a class="navbar-brand" href="#"><img  class="rotate"  src="../../public/logo.svg" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,8 +16,8 @@
 </nav>
 </template>
 <style >
- img{width:5rem;height:5rem;transition-duration:0.5s;}
- img:hover{transform:rotate(360deg);}
+ img.rotate{width:5rem;height:5rem;transition-duration:0.5s;}
+ img.rotate:hover{transform:rotate(360deg);}
  nav{box-shadow: 0px 0px 5px #000;}
  ul li a:hover{color: #036; text-decoration:underline;}
 </style>
