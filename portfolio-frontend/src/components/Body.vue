@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row align-items-center">
         <div class="col justify-content">
         <h1 class="fw-lighter mb-3">Hi there, I’m Rodolfo Cabral Neves. I'd like to present myself as a:</h1>

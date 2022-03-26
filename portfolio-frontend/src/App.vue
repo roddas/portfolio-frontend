@@ -2,6 +2,7 @@
 <div>
   <NavBar></NavBar>
   <Body></Body>
+  <Footer></Footer>
 </div>
 </template>
 <style>
@@ -9,6 +10,7 @@
 <script>
   import NavBar from './components/NavBar.vue';
   import Body from './components/Body.vue';
+  import Footer from './components/Footer.vue';
   export default
   {
     name : 'App',
@@ -16,7 +18,7 @@
       return{}
     },
     components : {
-      NavBar,Body
+      NavBar,Body,Footer
     }
   }
 </script>
